@@ -1,44 +1,47 @@
-.attribution {
-    margin-top: 50px;
-}
-
-.container {
+body {
     background-color: hsl(212, 45%, 89%);
-    margin: 50px;
-    padding-top: 75px;
-    padding-bottom: 75px;
 }
 
 .text {
-    font-size: 15px;
+    font-size: 1rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     text-align: center;
-    width: 190px;
-    margin-left: 5px;
+    margin: auto;
 }
 
 .textBold {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    margin-bottom: 0px;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
 }
 
 .textSmall {
-    font-size: 11px;
-    color: hsl(220, 15%, 55%);
-    margin-top: 10px;
+    font-size: .75em;
+    color: hsla(220, 15%, 43%, 0.956);
 }
 
 .borderQR {
-    border-radius: 20px;
-    padding: 15px;
+    border-radius: 2vh;
+    padding: 1.7vh;
     background-color: hsl(0, 0%, 100%);
     margin: auto;
-    height: 310px;
-    width: 200px;
+    margin-top: 15vh;
+    height: 46vh;
+    width: 28vh; 
 }
 
 .qr-code-image {
-    border-radius: 10px;
+    border-radius: 2vh;
 }
+
+
+@media screen and (max-width: 400px) {
+    .text {
+        font-size: .8rem;
+    }
+    .textSmall {
+        font-size: .7rem;
+    }
+  }
