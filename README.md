@@ -2,8 +2,4 @@
 
 [Challenge from FrontendMentor.io](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 
-#### Desktop
-![Desktop Screenshot](./images/desktop.png)
-
-#### Mobile
-![Mobile Screenshot](./images/mobile.png)
+Live at https://daaimah123.github.io/QR-Component/
